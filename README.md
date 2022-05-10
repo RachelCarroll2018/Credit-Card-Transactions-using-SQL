@@ -2,10 +2,10 @@
 
 ### Some fraudsters hack a credit card by making several small transactions
 
-How can we isolate transactions of each cardholder to show small transactions?<pre>
-SELECT *<pre>
-FROM transactions_2<pre>
-WHERE amount < 2;<pre>
+How can we isolate transactions of each cardholder to show small transactions?<br />
+SELECT *<br />
+FROM transactions_2<br />
+WHERE amount < 2;<br />
 
 Count the transactions that are less than $2 per cardholder
 SELECT COUNT(amount) FROM transactions_2
