@@ -1,8 +1,6 @@
 # Credit-Card-Transactions-using-SQL
 
-### Some fraudsters hack a credit card by making several small transactions
-
-How can we isolate transactions of each cardholder to show small transactions?<br />
+Some fraudsters hack a credit card by making several small transactions, how can we isolate transactions of each cardholder to show small transactions?<br />
 SELECT *<br />
 FROM transactions_2<br />
 WHERE amount < 2;<br />
