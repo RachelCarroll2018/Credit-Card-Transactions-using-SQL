@@ -25,7 +25,7 @@ Yes, the largest purchase was $1,617.00, the top four transactions below that we
 
 ## Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?<br />
 When looking at another 2 hour block like 11 am to 1 pm, there was only one transaction above $748.
-Another popular time for potential fraudulent activity was between 10 pm am and midnight, with 5 transactions above $1,031.
+Whereas a popular time for potential fraudulent activity was between 10 pm am and midnight, with 5 transactions above $1,031.
 
 ## If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame.<br />
 It seems the highest opportunity for fraudulent activity occurs under the times when people are assumed to be asleep so they wouldn't be looking at their banking app or able to stop the transaction as quickly as something happening at 12 pm.
