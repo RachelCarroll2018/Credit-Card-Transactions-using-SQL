@@ -9,3 +9,6 @@ Whereas a popular time for potential fraudulent activity was between 10 pm am an
 
 ## If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame.<br />
 It seems the highest opportunity for fraudulent activity occurs under the times when people are assumed to be asleep so they wouldn't be looking at their banking app or able to stop the transaction as quickly as something happening at 12 pm.
+
+## What difference do you observe between the consumption patterns of cardholder 2 and 18? Does the difference suggest a fraudulent transaction? Explain your rationale <brk>
+Carholder 2 is utiilizing their card more often on the daily basis and the transactions are less than $20, which could suggest normal spending patterns for coffee, breakfast, gas, etc. Whereas cardholer 18 is using the card just as often for smaller amounts, they also have a very large transaction at least once a month above $1,000. This could indicate fraudulent behavior but more information would be required
