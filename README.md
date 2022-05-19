@@ -12,3 +12,7 @@ It seems the highest opportunity for fraudulent activity occurs under the times 
 
 ## What difference do you observe between the consumption patterns of cardholder 2 and 18? Does the difference suggest a fraudulent transaction? Explain your rationale <brk>
 Carholder 2 is utiilizing their card more often on the daily basis and the transactions are less than $20, which could suggest normal spending patterns for coffee, breakfast, gas, etc. Whereas cardholer 18 is using the card just as often for smaller amounts, they also have a very large transaction at least once a month above $1,000. This could indicate fraudulent behavior but more information would be required
+  
+Are there any outliers for cardholder ID 25? How many outliers are there per month? <brk>
+ 
+Do you notice any anomalies? Describe your observations and conclusions.<brk>
