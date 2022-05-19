@@ -12,22 +12,13 @@ In this homework assignment, you will apply your new SQL skills to analyze histo
 
 You are asked to accomplish three main tasks:
 
-1. [Data Modeling](#Data-Modeling):
-Define a database model to store the credit card transactions data and create a new PostgreSQL database using your model.
+1) Define a database model to store the credit card transactions data and create a new PostgreSQL database using your model.
 
-2. [Data Engineering](#Data-Engineering): Create a database schema on PostgreSQL and populate your  database from the CSV files provided.
+2) Data-Engineering: Create a database schema on PostgreSQL and populate your  database from the CSV files provided.
 
-3. [Data Analysis](#Data-Analysis): Analyze the data to identify possible fraudulent transactions trends data, and develop a report of your observations.
+3. Data-Analysis: Analyze the data to identify possible fraudulent transactions trends data, and develop a report of your observations.
 
 ---
-
-## Files
-
-* [card_holder.csv](Data/card_holder.csv)
-* [credit_card.csv](Data/credit_card.csv)
-* [merchant.csv](Data/merchant.csv)
-* [merchant_category.csv](Data/merchant_category.csv)
-* [transaction.csv](Data/transaction.csv)
 
 ## Instructions
 
