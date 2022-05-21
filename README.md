@@ -24,27 +24,27 @@ From 7 am to 9 am, 95% of the data set's transactions were $20.44 or below. The 
 
   * Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day? <br>
  
-  1 am to 3 am = 6 atypical transactions : $1203, $1029, $1014, $691, $325, $137
+    1 am to 3 am = 6 atypical transactions : $1203, $1029, $1014, $691, $325, $137
+ 
+    3 am to 5 am = 2 atypical transactions : $1795, $389
 
-  3 am to 5 am = 2 atypical transactions : $1795, $389
+    5 am to 7 am = 7 atypical transactions : $2001, $1813, $1678, $1160, $1063, $1046, $543
 
-  5 am to 7 am = 7 atypical transactions : $2001, $1813, $1678, $1160, $1063, $1046, $543
+    9 am to 11 am = 4 atypical transactions : $1001, $852, $283, $233
 
-  9 am to 11 am = 4 atypical transactions : $1001, $852, $283, $233
+    11 am to 1 pm = 3 atypical transactions : $1154, $245, $178
 
-  11 am to 1 pm = 3 atypical transactions : $1154, $245, $178
+    1 pm to 3 pm = 2 atypical transactions : $1398, $757
 
-  1 pm to 3 pm = 2 atypical transactions : $1398, $757
+    3 pm to 5 pm = 5 atypical transactions : $1723, $1159, $1072, $313, $117
 
-  3 pm to 5 pm = 5 atypical transactions : $1723, $1159, $1072, $313, $117
+    5 pm to 7 pm = 4 atypical transactions : $ 1179, $1177, $525, $269
 
-  5 pm to 7 pm = 4 atypical transactions : $ 1179, $1177, $525, $269
+    7 pm to 9 pm = 4 atypical transactions : $1814, $1123, $267, $188
 
-  7 pm to 9 pm = 4 atypical transactions : $1814, $1123, $267, $188
+    9 pm to 11 pm = 4 atypical transactions : $ 1839, $1176, $1108, $393
 
-  9 pm to 11 pm = 4 atypical transactions : $ 1839, $1176, $1108, $393
-
-  ANSWER: Looking at the data results above, the only other times of day that had more fraudulent transactions were between 1 am - 3 am, and 5 am - 7 am, so there is a   trend for fraudulent activity early in the morning.
+    ANSWER: Looking at the data results above, the only other times of day that had more fraudulent transactions were between 1 am - 3 am, and 5 am - 7 am, so there is a trend for fraudulent activity early in the morning.
 
   * If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame.
 
