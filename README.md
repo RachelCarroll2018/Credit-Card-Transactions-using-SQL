@@ -56,9 +56,8 @@ From 7 am to 9 am, 95% of the data set's transactions were $20.44 or below. The 
 * The two most important customers of the firm may have been hacked. Verify if there are any fraudulent transactions in their history. For privacy reasons, you only know that their cardholder IDs are 2 and 18.
 
   * Using hvPlot, create a line plot representing the time series of transactions over the course of the year for each cardholder separately. 
-  
-  ![Cardholder 2](https://user-images.githubusercontent.com/98990090/169658441-0d7f4bc2-fd7b-45cc-ae48-80e63298e02b.png)
-  ![Cardholder 18](https://user-images.githubusercontent.com/98990090/169658469-6e387d9a-db6a-4d57-89ae-5293d70e5922.png)
+  ![2](https://user-images.githubusercontent.com/98990090/169658557-2493c101-d6e5-4fe7-83e1-4ecbc0a33ec6.png)
+  ![18](https://user-images.githubusercontent.com/98990090/169658559-eee2ec26-019f-41b9-b44a-7fb98928d0d8.png)
 
   * Next, to better compare their patterns, create a single line plot that contains both card holders' trend data.  
 
@@ -76,4 +75,4 @@ From 7 am to 9 am, 95% of the data set's transactions were $20.44 or below. The 
    April had a median charge of $10.19 with three outliers of $100, $269, $1063  <br>
    May had a median transaction amount of $5.97 with the outlier being $1046  <br>
    Finally, June's median transaction amount was $11.70 with three outliers charging $749, $1162, and the largest amount of the set being $1,813
-![Cardholder 25](https://user-images.githubusercontent.com/98990090/169658478-4359bd52-d25a-4a85-9dd2-ad248c3c1620.png)
+   ![25](https://user-images.githubusercontent.com/98990090/169658568-841ee45b-fb1e-4753-848a-f08f8acca8b3.png)
