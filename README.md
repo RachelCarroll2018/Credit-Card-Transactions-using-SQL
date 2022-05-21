@@ -4,9 +4,9 @@
 
 Fraud is prevalent these days, whether you are a small taco shop or a large international business. While there are emerging technologies that employ machine learning and artificial intelligence to detect fraud, many instances of fraud detection still require strong data analytics to find abnormal charges.
 
-In this homework assignment, you will apply your new SQL skills to analyze historical credit card transactions and consumption patterns in order to identify possible fraudulent transactions.
+In this project I analyzed historical credit card transactions and consumption patterns in order to identify possible fraudulent transactions.
 
-You are asked to accomplish three main tasks:
+The three main tasks at hand: 
 
 1) Define a database model to store the credit card transactions data and create a new PostgreSQL database using your model.
 
@@ -16,53 +16,16 @@ You are asked to accomplish three main tasks:
 
 ---
 
-## Instructions
-
-### Data Modeling
-
-Create an entity relationship diagram (ERD) by inspecting the provided CSV files.
-
-Part of the challenge here is to figure out how many tables you should create, as well as what kind of relationships you need to define among the tables.
-
-Feel free to discuss your database model design ideas with your classmates. You can use a tool like [Quick Database Diagrams](https://www.quickdatabasediagrams.com) to create your model.
-
-**Hints:** 
-
-* For the `credit_card` and `transaction` tables, the `card` column should be a VARCHAR(20) datatype rather than an INT.
-* For the `transaction` table, the `date` column should be a TIMESTAMP datatype rather than DATE.
-
-### Data Engineering
-
-Using your database model as a blueprint, create a database schema for each of your tables and relationships. Remember to specify data types, primary keys, foreign keys, and any other constraints you defined.
-
-After creating the database schema, import the data from the corresponding CSV files.
-
 ### Data Analysis
 #### Part 1:
 
-The CFO of your firm has requested a report to help analyze potential fraudulent transactions. Using your newly created database, generate queries that will discover the information needed to answer the following questions, then use your repository's ReadME file to create a markdown report you can share with the CFO:
+  * What are the top 100 highest transactions made between 7:00 am and 9:00 am and are there any anomalous transactions that could be fraudulent?
+ From 7 am to 9 am, 95% of the data set's transactions were $20.44 or below. The other 5% of transactions had a large jump in amount, with the top transaction being $1,617 and the respective 4 below being $1131, $1060, $1017, and $748. Given that the overwhelming majority of transactions are $20 or less, these amounts could be considered fraudulent.
 
-* Some fraudsters hack a credit card by making several small transactions (generally less than $2.00), which are typically ignored by cardholders. 
-
-  * How can you isolate (or group) the transactions of each cardholder?
-
-  * Count the transactions that are less than $2.00 per cardholder. 
-  
-  * Is there any evidence to suggest that a credit card has been hacked? Explain your rationale.
-
-* Take your investigation a step futher by considering the time period in which potentially fraudulent transactions are made. 
-
-  * What are the top 100 highest transactions made between 7:00 am and 9:00 am?
-
-  * Do you see any anomalous transactions that could be fraudulent?
 
   * Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?
 
   * If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame.
-
-* What are the top 5 merchants prone to being hacked using small transactions?
-
-* Create a view for each of your queries.
 
 #### Part 2:
 
@@ -83,7 +46,3 @@ Your CFO has also requested detailed trends data on specific card holders. Use t
   * Are there any outliers for cardholder ID 25? How many outliers are there per month?
 
   * Do you notice any anomalies? Describe your observations and conclusions.
-
----
-
-© 2021 Trilogy Education Services
