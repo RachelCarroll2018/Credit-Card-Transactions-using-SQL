@@ -46,7 +46,8 @@ From 7 am to 9 am, 95% of the data set's transactions were $20.44 or below. The 
 
     ANSWER: Looking at the data results above, the only other times of day that had more fraudulent transactions were between 1 am - 3 am, and 5 am - 7 am, so there is a trend for fraudulent activity early in the morning.
 
-  * If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame.
+  * If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame. <br><br>
+    ANSWER: I would think there is a larger amount of fraudulent transactions during this time due to people mostly being asleep or just starting their day, they aren't looking directly at their bank account first thing in the morning.
 
 #### Part 2:
 
