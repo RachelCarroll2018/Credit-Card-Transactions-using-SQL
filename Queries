@@ -1,4 +1,4 @@
--- Some fraudsters hack a credit card by making several small transactions, how can we isolate transactions of each cardholder to show small transactions?
+### Some fraudsters hack a credit card by making several small transactions, how can we isolate transactions of each cardholder to show small transactions?
 SELECT *
 FROM transactions_2
 WHERE amount < 2;
