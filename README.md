@@ -66,10 +66,10 @@ From 7 am to 9 am, 95% of the data set's transactions were $20.44 or below. The 
 
   * Using Plotly Express, create a box plot, representing the expenditure data from January 2018 to June 2018 for cardholder ID 25.
   
-  * Are there any outliers for cardholder ID 25? How many outliers are there per month?
-   For January, the median transaction was $2.84 but there was a large amount charged for $1,177
-   In February, there were no outliers.
-   March had a median charge of $10.10 with one outlier charged for $1,334.
-   April had a median charge of $10.19 with three outliers of $100, $269, $1063.
-   May had a median transaction amount of $5.97 with the outlier being $1046.
+  * Are there any outliers for cardholder ID 25? How many outliers are there per month? <br>
+   For January, the median transaction was $2.84 but there was a large amount charged for $1,177  <br>
+   In February, there were no outliers  <br>
+   March had a median charge of $10.10 with one outlier charged for $1,334  <br>
+   April had a median charge of $10.19 with three outliers of $100, $269, $1063  <br>
+   May had a median transaction amount of $5.97 with the outlier being $1046  <br>
    Finally, June's median transaction amount was $11.70 with three outliers charging $749, $1162, and the largest amount of the set being $1,813
