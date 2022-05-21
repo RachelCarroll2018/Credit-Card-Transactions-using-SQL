@@ -47,11 +47,11 @@ From 7 am to 9 am, 95% of the data set's transactions were $20.44 or below. The 
     ANSWER: Looking at the data results above, the only other times of day that had more fraudulent transactions were between 1 am - 3 am, and 5 am - 7 am, so there is a trend for fraudulent activity early in the morning.
 
   * If you answered yes to the previous question, explain why you think there might be fraudulent transactions during this time frame. <br><br>
-    ANSWER: I would think there is a larger amount of fraudulent transactions during this time due to people mostly being asleep or just starting their day, they aren't looking directly at their bank account first thing in the morning.
+    ANSWER: I believe there is a larger amount of fraudulent transactions during this time due to people mostly being asleep or just starting their day, they aren't looking directly at their bank account first thing in the morning.
 
 #### Part 2:
 
-Your CFO has also requested detailed trends data on specific card holders. Use the [starter notebook](Starter_Files/challenge.ipynb) to query your database and generate visualizations that supply the requested information as follows, then add your visualizations and observations to your markdown report:      
+(Code is in .ipynb from Jupyter Notebook)    
 
 * The two most important customers of the firm may have been hacked. Verify if there are any fraudulent transactions in their history. For privacy reasons, you only know that their cardholder IDs are 2 and 18.
 
@@ -59,12 +59,17 @@ Your CFO has also requested detailed trends data on specific card holders. Use t
   
   * Next, to better compare their patterns, create a single line plot that contains both card holders' trend data.  
 
-  * What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? Explain your rationale.
+  * What difference do you observe between the consumption patterns? Does the difference suggest a fraudulent transaction? Explain your rationale
+    Answer: Carholder 2 is utiilizing their card more often on the daily basis and the transactions are less than $20, which could suggest normal spending patterns for coffee, breakfast, gas, etc. Whereas cardholer 18 is using the card just as often for smaller amounts, they also have a very large transaction almost monthly above $1,000. This could indicate fraudulent behavior but more information would be required to see if the transactions were company related or personal.
 
 * The CEO of the biggest customer of the firm suspects that someone has used her corporate credit card without authorization in the first quarter of 2018 to pay quite expensive restaurant bills. Again, for privacy reasons, you know only that the cardholder ID in question is 25.
 
   * Using Plotly Express, create a box plot, representing the expenditure data from January 2018 to June 2018 for cardholder ID 25.
   
   * Are there any outliers for cardholder ID 25? How many outliers are there per month?
-
-  * Do you notice any anomalies? Describe your observations and conclusions.
+   For January, the median transaction was $2.84 but there was a large amount charged for $1,177
+   In February, there were no outliers.
+   March had a median charge of $10.10 with one outlier charged for $1,334.
+   April had a median charge of $10.19 with three outliers of $100, $269, $1063.
+   May had a median transaction amount of $5.97 with the outlier being $1046.
+   Finally, June's median transaction amount was $11.70 with three outliers charging $749, $1162, and the largest amount of the set being $1,813
