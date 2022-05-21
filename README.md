@@ -19,7 +19,7 @@ The three main tasks at hand:
 ### Data Analysis
 #### Part 1:
 
-  * What are the top 100 highest transactions made between 7:00 am and 9:00 am and are there any anomalous transactions that could be fraudulent? <br>
+  * What are the top 100 highest transactions made between 7:00 am and 9:00 am and are there any anomalous transactions that could be fraudulent? <br><br>
 From 7 am to 9 am, 95% of the data set's transactions were $20.44 or below. The other 5% of transactions had a large jump in amount, with the top transaction being $1,617 and the respective 4 below being $1131, $1060, $1017, and $748. Given that the overwhelming majority of transactions are $20 or less, these amounts could be considered fraudulent.
 
   * Is there a higher number of fraudulent transactions made during this time frame versus the rest of the day?
